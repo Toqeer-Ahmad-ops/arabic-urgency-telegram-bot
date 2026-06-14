@@ -25,6 +25,12 @@ Detects urgency keywords → Sends instant Arabic alerts → Zero WhatsApp ban r
 
 **n8n** | **Google Gemini** | **Telegram Bot API** | **Google Sheets**
 
+## Features
+- OAuth 2.0 + Pagination + Retries
+- Error Workflow: Logs to `errors` sheet  
+- Audit Logs: Every action tracked
+- 95% accuracy Arabic NLP
+
 ## Screenshots — Day 1-4 Proof
 
 ### Day 4: Telegram Bot Alerts
