@@ -10,6 +10,21 @@ Production system for UAE retail/events. Built in 6 days.
 
 Qoton Printing Dubai receives 50+ Arabic orders/day via email. Staff waste 2hrs manually checking for **عاجل**, **مستعجل**, **ضروري**. Delays = lost customers.
 
+## Business Impact
+- **2hrs/day → 2 seconds** response time for Arabic orders
+- **$0/month** vs WATI $2,000/mo = $24k/year saved  
+- **Zero WhatsApp ban risk** with dual-channel alerts
+- **Production-grade**: Audit logs, error monitoring, OAuth 2.0
+
+## Tech Stack  
+n8n | Gemini 2.5 Flash | Telegram Bot API | WhatsApp Cloud API | Google Sheets API | Python | REST/OAuth
+
+## Features
+- OAuth 2.0 + Pagination + Retries
+- Error Workflow: Logs to `errors` sheet
+- Audit Logs: Every action tracked
+- 95% accuracy Arabic NLP for عاجل/ضروري/مستعجل
+
 ## Solution
 
 No-code pipeline: **Gmail → n8n → Google Gemini → Telegram Bot API**
@@ -25,15 +40,6 @@ Detects urgency keywords → Sends instant Arabic alerts → Zero WhatsApp ban r
 | **Cost** | $0/month vs WATI $2,000/mo |
 | **Proof** | 4 urgent orders → 4 Telegram alerts delivered |
 
-## Tech Stack
-
-**n8n** | **Google Gemini** | **Telegram Bot API** | **Google Sheets**
-
-## Features
-- OAuth 2.0 + Pagination + Retries
-- Error Workflow: Logs to `errors` sheet  
-- Audit Logs: Every action tracked
-- 95% accuracy Arabic NLP
 
 ## Screenshots — Day 1-4 Proof
 
