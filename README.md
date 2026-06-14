@@ -1,6 +1,10 @@
 # 🚨 Arabic Urgency Detection → Telegram Bot
 
+Gmail → Gemini → n8n → Telegram + WhatsApp → Google Sheets
+Production system for UAE retail/events. Built in 6 days.
+
 **For Dubai Retail**: Automates عاجل/ضروري/مستعجل order alerts from Gmail in 2 seconds. $0/month.
+
 
 ## Problem
 
