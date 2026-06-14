@@ -1,4 +1,4 @@
-# 🚨 Arabic Urgency Detection → Telegram Bot
+# 🚨 End-to-End Arabic Ops Automation — Dubai
 
 Gmail → Gemini → n8n → Telegram + WhatsApp → Google Sheets
 Production system for UAE retail/events. Built in 6 days.
